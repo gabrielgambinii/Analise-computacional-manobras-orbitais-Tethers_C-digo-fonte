@@ -110,7 +110,7 @@ flowchart TD
 O caminho da física até a lei de corrente, e onde cada passo vive no código:
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph Fisica["Modelo físico"]
         F1["Força de Lorentz<br/>F = I L × B"] --> F2["Dipolo magnético<br/>μ_m = 8×10⁶ T·km³"]
         F2 --> F3["Equações de Gauss<br/>expandidas em e (eq. 8)"]
