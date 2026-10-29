@@ -1,0 +1,15 @@
+# Saidas geradas a cada execucao do script
+resultados/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

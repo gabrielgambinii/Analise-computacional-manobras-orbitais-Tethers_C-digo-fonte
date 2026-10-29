@@ -1,0 +1,41 @@
+
+======================================================================
+RESULTADO DA MANOBRA
+======================================================================
+
+Modo: Varredura de TOF (1.0 h a 500.0 h, 50 pontos)
+
+Orbita inicial:
+  a = 6878.00 km
+  e = 0.02000
+  omega = 30.000 deg
+  i     = 30.000 deg
+  Omega = 50.000 deg
+
+Orbita final:
+  a = 7078.00 km
+  e = 0.02000
+  omega = 30.000 deg
+  i     = 30.000 deg
+  Omega = 50.000 deg
+
+Mudancas desejadas:
+  Delta a     = +200.000 km
+  Delta e     = +0.00000
+  Delta omega = +0.000 deg
+  Delta i     = +0.000 deg
+  Delta Omega = +0.000 deg
+
+Solucao (eq. 15 de Tragesser e San, 2003):
+  TOF = 58h 10min (58.18 h)
+  I_max = 5.0000 A  (I_disponivel = 5.0 A)
+
+Coeficientes da lei de corrente (eq. 11):
+  X_1 (DC)              = +1.6554 A
+  X_2 (cos nu)          = -0.0414 A
+  X_3 (sen nu)          = -0.0150 A
+  X_4 (cos[2(nu+w)])    = -3.3109 A
+  X_5 (sen[2(nu+w)])    = -0.0000 A
+
+Modo dominante: X_4 (cos[2(nu+w)], afeta inclinacao)
+======================================================================
